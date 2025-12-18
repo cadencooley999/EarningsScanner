@@ -8,6 +8,8 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from scipy.interpolate import interp1d
 import sqlite3
 
+print("")
+
 class Asset():
     def __init__(self, price):
         self.price = price
